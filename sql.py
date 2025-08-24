@@ -21,7 +21,7 @@ cursor=connection.cursor()
 # Table 1
 table_info = """
 
-Create table DGIS(NAME VARCHAR(25), DEPARTMENT VARCHAR(25), SALARY INT);
+Create TABLE DGIS(NAME VARCHAR(25), DEPARTMENT VARCHAR(25), salary INT);
 
 """
 
@@ -29,16 +29,13 @@ cursor.execute(table_info)
 
 # Insert Some  Records
 
-cursor.execute('''Insert Into DGIS value('Mohit', 'AI-ML', '35000')''')
-cursor.execute('''Insert Into DGIS value('X', 'AI-ML', '30000')''')
-cursor.execute('''Insert Into DGIS value('Y', 'Backend', '25000')''')
-cursor.execute('''Insert Into DGIS value('Z', 'Frontend', '25000')''')
+cursor.execute('''Insert Into DGIS values('Mohit', 'AI-ML', 35000)''')
+cursor.execute('''Insert Into DGIS values('X', 'AI-ML', 30000)''')
+cursor.execute('''Insert Into DGIS values('Y', 'Backend', 25000)''')
+cursor.execute('''Insert Into DGIS values('Z', 'Frontend', 25000)''')
 
-# Le bhai saare records..
 
 print("The inserted records are")
-
-data=cursor.execute
 
 data = cursor.execute('''Select * From DGIS''')
 
