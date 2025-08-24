@@ -1,0 +1,29 @@
+Creating Text to Sql LLM (NL2SQL)
+
+I have no idea what to do next 
+lets go with the flow
+
+-- Basically 
+
+The Idea is to
+
+1 - Give a Prompt
+2 - Prompt will hit a LLM 
+3 - Lets Use any Gpt / Api model (To Create a Query) // Can use langsmith as well but lets began with api first
+4 - Query will hit database
+5 - Data base to Find correct response
+6 - response
+
+
+Implement 
+ 
+ # Database
+ - Sqlite (Can store data into local thats why)
+ - Insert records - Python Programming
+
+
+ # LLM
+ llM - Api -> SQL database
+
+
+ 
