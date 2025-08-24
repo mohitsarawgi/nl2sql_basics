@@ -1,3 +1,4 @@
+
 Creating Text to Sql LLM (NL2SQL)
 
 I have no idea what to do next 
@@ -26,4 +27,7 @@ Implement
  llM - Api -> SQL database
 
 
- 
+
+ I will be using Google Gemini pro as of now 
+
+
